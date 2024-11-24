@@ -1,0 +1,10 @@
+ User Authentication,
+ User Authorization,
+ Property Management,
+ Booking Management,
+ Review and Rating System,
+ Search and Filtering,
+ Notifications and Alerts,
+ Payment Gateway Integration,
+ Analytics and Reporting,
+ 
