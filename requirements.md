@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Airbnb Clone Backend Technical and Functional Requirements Specification
 
 # 📄 Backend Features Coverage
@@ -50,3 +51,15 @@
      - Notification: Email, SMS and In-app notifications 
      - Search and Filtering: 
      - Caching: Redis
+=======
+ User Authentication,
+ User Authorization,
+ Property Management,
+ Booking Management,
+ Review and Rating System,
+ Search and Filtering,
+ Notifications and Alerts,
+ Payment Gateway Integration,
+ Analytics and Reporting,
+ 
+>>>>>>> 94bbf8ed57faf2d64688b456ee3772380cff2b1c
