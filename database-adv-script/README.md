@@ -28,3 +28,34 @@ A subquery is used to compute the average rating per property, and the outer que
 
 ### 2. Users with More Than 3 Bookings
 A correlated subquery is used to count the number of bookings for each user and filter users who have made more than three bookings.
+
+# Database Advanced Script: Aggregations and Window Functions
+
+This directory contains SQL scripts demonstrating the use of **aggregation functions** and **window functions** on the Airbnb database.
+
+## File: `aggregations_and_window_functions.sql`
+
+This SQL script includes queries that:
+
+- Calculate the total number of bookings made by each user using the `COUNT` function and `GROUP BY` clause.
+- Rank properties based on the total number of bookings they have received using window functions like `RANK()`.
+
+## How to Use
+
+1. Ensure you have access to the Airbnb database schema with relevant tables such as `bookings`, `users`, and `properties`.
+2. Run the SQL script `aggregations_and_window_functions.sql` in your SQL client or database environment.
+3. Review the results to analyze user booking activity and property popularity.
+
+## Concepts Covered
+
+- Aggregation functions (`COUNT`, `SUM`, `AVG`, etc.)
+- `GROUP BY` clause to group rows by specific columns
+- Window functions such as `ROW_NUMBER()`, `RANK()`, and `DENSE_RANK()` to rank and partition data
+
+## Requirements
+
+- SQL environment compatible with window functions (e.g., PostgreSQL, MySQL 8+, SQL Server, Oracle)
+
+---
+
+If you want, I can help you write a more detailed or customized README based on your exact project! Would you like that?
